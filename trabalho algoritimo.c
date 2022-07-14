@@ -123,7 +123,7 @@ analiseLin (int raiz, char dna[][raiz])
 	  if (dna[i][j] == dna[i][j + 1])
 	    {
 	      simios = simios + 1;
-	      printf ("%c", dna[i][j], dna[i][j + 1]);
+	      
 	    }
 	  else if (j + 1 != raiz && simios < 3)
 	    {
@@ -144,7 +144,7 @@ analiseCol (int raiz, char dna[][raiz], int simios)
 	  if (dna[j][i] == dna[j + 1][i])
 	    {
 	      simios = simios + 1;
-	      printf ("%c", dna[i][j], dna[j + 1][i]);
+	      
 	    }
 	  else if (j + 1 != raiz && simios < 3)
 	    {
@@ -290,3 +290,7 @@ main (void)
 
   return 0;
 }
+
+
+
+
