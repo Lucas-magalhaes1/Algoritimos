@@ -1,7 +1,23 @@
+// 16   agccagccgbcaaccg 
+// 25   acaactatctatcgcccgctcggaa
+// 49   agtctgccatagtcggatgtaaaagtccttagctcacccgtagtatcat
+// 100  agtctgcagtgatagtcgatggatgtaccgaaaggccatcttagctcgtcacccgtatcagtatcatcgtaggccagctctcgtctgtacccgaaatagt
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <ctype.h>
+
+typedef struct {
+    char nome [100];
+}nome;
+
+
+ nome pedirnome (nome sobrenome){
+     printf (" qual seu nome:\n ");
+     scanf ("%s" , sobrenome.nome);
+     return sobrenome;
+ }
 
 int
 tamanho ()
@@ -252,11 +268,11 @@ isSimian (int simios, int tam)	// faz a verificaC'C#o se C) um simion ou humano
     {
       if (simios >= 3)
 	{
-	  printf (" e um simion");
+	  printf (" e um simion\n");
 	}
       else
 	{
-	  printf (" e um humano");
+	  printf (" e um humano\n");
 	}
     }
 }
@@ -268,8 +284,10 @@ int
 main (void)
 {
   int tam, raiz, simio, escrever, testes = 0;
+  nome sobrenome;
   do
     {
+      sobrenome = pedirnome (sobrenome); 
       tam = tamanho ();
       raiz = Raiz (tam);
       char seq[tam], dna[raiz][raiz];
@@ -290,6 +308,10 @@ main (void)
 
   return 0;
 }
+
+
+
+
 
 
 
