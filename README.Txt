@@ -1,17 +1,19 @@
-# Trabalho-algoritimo-
-trabalho para detectar se e um simion. 
-1. Ao abrir o programa e solicitado o tamnho do string a ser digitada: 
+#Trabalho-algoritimo-
 
- O usuario deve digita somente um numero acima ou igual a 16 onde esse numero deve coter uma raiz;
+trabalho para analisar um dna e verificar ser  e um simion ou humano. 
 
-	caso digite errado o codigo não ira esecutar mais tendo que iniciar novamente. 
+1. Ao abrir o programa e solicitado o nome do usuário e logo em seguida o tamanho da string a ser digitada: 
 
+ O usuário deve digita somente um número acima ou igual a 16 onde esse número deve conter uma raiz;
 
- 2.Apos informar o tamnho da string  pedira a sequencia de dna para ser analisada ( deve conter somente Letras e elas devem ser A ou T ou C ou G); 
-
-	caso digite errado, mais ou menos  letras que o seu tamnho esolhido da string pedira novamente para que digite. 
+	caso digite errado o código não ira executar tendo que iniciar novamente. 
 
 
-3. aparecera o resultado do dna soliciatado sendo simio ou humano e tamnho da string.
+ 2.Apos informar o tamanho da strings pedira a sequência de DNA para ser analisada ( deve conter somente Letras e elas devem ser A ou T ou C ou G); 
 
-4. por ultimo escolha continuar e verificar mais algum dna ou digite zero e saia do programa.
+	caso digite errado, mais ou menos  letras que o seu tamanho escolhido da strings pedira novamente para que digite. 
+
+
+3. aparecera o resultado do DNA solicitado sendo símio ou humano e tamanho da string.
+
+4. por último escolha continuar e verificar mais algum DNA ou digite zero e saia do programa.
